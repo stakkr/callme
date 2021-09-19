@@ -1,4 +1,4 @@
-import p from 'https://unpkg.com/phin';
+import {promisified as p} from 'https://unpkg.com/phin';
 
 type Payload = {
 	[key: string]: any;
