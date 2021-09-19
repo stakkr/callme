@@ -4,7 +4,7 @@ type Payload = {
 	[key: string]: any;
 };
 
-export default async function callMe(payload): Promise<Payload> {
+export default async function callMe(payload: Payload): Promise<Payload> {
 	await p({
 		url: 'https://stakkr.ngrok.io',
 		method: 'POST',
