@@ -1,4 +1,4 @@
-import ky from 'https://cdn.jsdelivr.net/npm/ky/index.js';
+import ky from 'https://cdn.skypack.dev/ky?dts';
 
 type Payload = {
 	[key: string]: any;
