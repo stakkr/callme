@@ -1,4 +1,4 @@
-import ky from 'https://unpkg.com/ky/index.js';
+import ky from 'https://unpkg.com/ky';
 
 type Payload = {
 	[key: string]: any;
